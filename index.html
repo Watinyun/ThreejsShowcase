@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ThreeJS Example</title>
+    <link href="app.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src='https://threejs.org/build/three.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js" integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+    <!-- <script src='https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/examples/js/loaders/GLTFLoader.js'></script> -->
+
+    <script src='https://unpkg.com/three@0.126.0/examples/js/controls/OrbitControls.js'></script>
+
+    <script type="module" src="index.js"></script>
+
+    <canvas id="sofa-canvas"></canvas>
+
+    <div class="options">
+        <div class="option --is-active" data-option="sofa">
+            <h1>Sofa</h1>
+            <!-- <img src="./assets/sofa.png" alt="" /> -->
+        </div>
+        <div class="option" data-option="pillows">
+            <h1>Pillow</h1>
+            <!-- <img src="./assets/pillows.png" alt="" /> -->
+        </div>
+        <div class="option" data-option="light">
+            <h1>Lamp</h1>
+            <!-- <img src="./assets/sofa.png" alt="" /> -->
+        </div>
+        <div class="option" data-option="bar">
+            <h1>Bar</h1>
+            <!-- <img src="./assets/pillows.png" alt="" /> -->
+        </div>
+        <div class="option" data-option="windows">
+            <h1>Window</h1>
+            <!-- <img src="./assets/sofa.png" alt="" /> -->
+        </div>
+        <div class="option" data-option="chair">
+            <h1>Chair</h1>
+            <!-- <img src="./assets/pillows.png" alt="" /> -->
+        </div>
+    </div>
+
+    <div id="js-tray" class="tray">
+        <div id="js-tray-slide" class="tray__slide"></div>
+    </div>
+
+    <div class="loading" id="js-loader">
+        <div class="loader"></div>
+    </div>
+</body>
+
+</html>
