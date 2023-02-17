@@ -11,4 +11,5 @@ https://youtu.be/THW5NpTiwgI
 - D3.js: D3 is a data visualisation library. It makes it easy to generate and modify graphics based on data. This is nothing about 3D though.
 
 #Use cases
+
      If you want to do 3D models/textures/render scenes, more like "real" 3D, use Three.js. It's a nice and simple layer on top of WebGL, it is well documented, and has a lot of documentation. Start with the Three.js intro docs: https://threejs.org/docs/#Manual%2FIntroduction%2FCreating_a_scene
